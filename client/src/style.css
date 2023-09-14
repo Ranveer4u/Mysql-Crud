@@ -1,0 +1,90 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.books{
+    display: flex;
+    gap: 20px;
+    
+}
+.book{
+    flex: 1;
+    display: flex;
+    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+img{
+    margin-top: 5px;
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    background-color: aquamarine;
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    border: 1px solid rgb(245, 191, 191);
+    color: red;
+    border-radius: 20%;
+    background-color: #ffff;
+    cursor: pointer;
+
+}
+.update{
+    border: none;
+    padding: 3px 6px;
+    border: 1px solid rgb(204, 204, 243);
+    border-radius: 20%;
+    
+    background-color: #ffff;
+    cursor: pointer;
+
+}
+.Addbook{
+    border: none;
+    margin-top: 10px;
+    padding: 3px 6px;
+    border: 1px solid rgb(8, 8, 243);
+    border-radius: 20%;
+    background-color: #ffff;
+    cursor: pointer;
+
+
+}
+.shop{
+    color: yellow;
+    font-size: 3rem;
+    text-shadow: 0 2px 1px red, 
+      -1px 3px 1px #82ad75, 
+      -2px 5px 1px blue;
+}
+.head{
+    text-shadow: 2px 2px 8px #FF0000;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(244, 142, 74);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
